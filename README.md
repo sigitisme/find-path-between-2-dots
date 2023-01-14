@@ -5,62 +5,63 @@ This solution is using Bread First Search algorithm. The step is traverse the ar
 
 ## Test Cases
 
-### Test Cases 1: 5x5 array with no obstacles
-
+### Test Case 1: 5x5 array with no obstacles
+```
 {0, 0, 0, 0, 0}
 {0, 0, 0, 0, 0}
 {0, 0, 0, 0, 0}
 {0, 0, 0, 0, 0}
 {0, 0, 0, 0, 0}
-
-### Test Cases 2:  5x5 array with little resistances
-
+```
+### Test Case 2:  5x5 array with little resistances
+```
 {0, 0, 0, 0, 0}
 {0, 0, 0, 0, 0}
 {0, 0, 0, 0, 0}
 {0, 0, -1, 0, 0}
 {0, -1, 0, 0, 0}
-
-### Test Cases 3: 5x5 array with high resistances
-
+```
+### Test Case 3: 5x5 array with high resistances
+```
 {0, 0, 0, 0, 0}
 {-1, -1, -1, -1, 0}
 {0, 0, 0, 0, 0}
 {0, -1, -1, -1, -1}
 {0, 0, 0, 0, 0}
-
-### Test Cases 4: 5x5 array with case example resistances
-
+```
+### Test Case 4: 5x5 array with case example resistances
+```
 {0, 0, 0, -1, 0}
 {-1, 0, 0, -1, -1}
 {0, 0, 0, -1, 0}
 {-1, 0, 0, 0, 0}
 {0, 0, -1, 0, 0}
-
+```
 ### Test Case 5: 5x4 array with case example resistances
-
+```
 {0, 0, 0, -1}
 {-1, 0, 0, -1}
 {0, 0, 0, -1}
 {-1, 0, 0, 0}
 {0, 0, -1, 0}
-
-### Test Cases 5: 5x5 array with no path 1
-
+```
+### Test Case 6: 5x5 array with no path 1
+```
 {0, 0, 0, 0, 0},
 {-1, -1, -1, -1, -1},
 {0, 0, 0, 0, 0},
 {0, -1, -1, -1, -1},
 {0, 0, 0, 0, 0},
-
-### Test Cases 6: 5x5 array with no path 2
-
+```
+### Test Case 7: 5x5 array with no path 2
+```
 {0, 0, 0, 0, 0}
 {-1, -1, -1, -1, 0}
 {0, 0, 0, 0, 0}
 {0, -1, -1, -1, -1}
 {0, 0, 0, -1, 0}
-
+```
+## Run
 ### run the tests
 ```
 make test
