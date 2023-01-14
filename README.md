@@ -66,3 +66,7 @@ This solution is using Bread First Search algorithm. The step is traverse the ar
 make test
 ```
 ### view the coverage in browser
+
+```
+make coverage
+```
