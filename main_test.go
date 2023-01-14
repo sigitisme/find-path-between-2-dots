@@ -87,8 +87,8 @@ func TestMain(t *testing.T) {
 				{-1, 0, 0, 0},
 				{0, 0, -1, 0},
 			},
-			m:        4,
-			n:        5,
+			m:        5,
+			n:        4,
 			expected: true,
 		},
 		{
